@@ -1,2 +1,18 @@
 
 changed
+{
+  "title": "Ошибка приложения",
+  "description": "Приложение вылетает при попытке открыть настройки",
+  "severity": "высокая",
+  "steps_to_reproduce": [
+    "Открыть приложение",
+    "Нажать на кнопку настроек"
+  ],
+  "expected_result": "Открыть настройки",
+  "actual_result": "Приложение вылетает",
+  "environment": {
+    "os": "Windows 10",
+    "app_version": "1.2.3",
+    "device": "iPhone X"
+  }
+}
